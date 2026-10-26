@@ -291,7 +291,7 @@ export default function HomePage() {
                 <div className="absolute -inset-2 bg-amber-400 rounded-3xl transform -rotate-2 opacity-70"></div>
                 <div className="relative bg-slate-900 rounded-2xl overflow-hidden border border-amber-400/30 shadow-2xl">
                   <Image
-                    src="/assets/founder-services.jpg"
+                    src="/assets/founder-services.webp"
                     alt="PerryVent Founder - Why Choose Us"
                     width={400}
                     height={460}
