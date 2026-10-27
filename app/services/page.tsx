@@ -235,7 +235,7 @@ export default function ServicesPage() {
                 <div className="absolute -inset-2 bg-amber-400/30 rounded-2xl transform rotate-2"></div>
                 <div className="relative rounded-2xl overflow-hidden border border-amber-400/40 shadow-2xl bg-slate-900">
                   <Image
-                    src="/assets/founder-services.jpg"
+                    src="/assets/founder-services.webp"
                     alt="PerryVent Principal Consultant"
                     width={400}
                     height={460}
