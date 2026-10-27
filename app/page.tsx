@@ -1,11 +1,8 @@
-"use client";
-
-import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import HomeFaq from "./components/HomeFaq";
 import {
   ShieldCheck,
-  CheckCircle2,
   Calendar,
   MessageCircle,
   FileCheck2,
@@ -15,16 +12,12 @@ import {
   CalendarCheck,
   HeartHandshake,
   ArrowRight,
-  ChevronDown,
-  Star,
   MapPin,
   Clock,
   Award,
 } from "lucide-react";
 
 export default function HomePage() {
-  const [openFaq, setOpenFaq] = useState<number | null>(0);
-
   const featuredServices = [
     {
       title: "Business Name Reservation",
@@ -87,25 +80,6 @@ export default function HomePage() {
     },
   ];
 
-  const faqs = [
-    {
-      q: "How long does it take to register a company in Uganda?",
-      a: "Once your business name is reserved with URSB and all director identification details are provided, company incorporation typically takes 3 to 5 business days.",
-    },
-    {
-      q: "Do I need to visit your office on Dewinton Road in person?",
-      a: "While you are always warmly welcome to visit us on Dewinton Road, Kampala, we also offer a 100% digital onboarding process via WhatsApp and email for your convenience.",
-    },
-    {
-      q: "What is required to obtain an individual or company TIN?",
-      a: "For an Individual TIN, you only need your National ID (NIN) and registered phone number. For a company TIN, you need the Certificate of Incorporation and directors' TINs.",
-    },
-    {
-      q: "Can you assist foreign investors with Ugandan work permits?",
-      a: "Yes. We handle Class G2 (investors/trade), Class B (agriculture), and Class F (employment) permits through the DCIC portal, coordinating all security and immigration clearances.",
-    },
-  ];
-
   return (
     <div className="min-h-screen bg-slate-50 text-slate-800">
       
@@ -122,16 +96,15 @@ export default function HomePage() {
               </div>
 
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white font-heading leading-[1.15]">
-                Start Your Business{" "}
+                 Seamless NGO Registration{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-amber-300 to-yellow-200">
-                  Legally and Confidently
+                  & Compliance Experts
                 </span>{" "}
                 in Uganda.
               </h1>
 
               <p className="text-base sm:text-lg text-slate-300 leading-relaxed max-w-2xl">
-                We remove the bureaucratic friction from your entrepreneurial journey. From URSB company
-                registration and URA TIN setup to annual return filings and work permits—we deliver flawless compliance.
+                We fast-track your indigenous, foreign, or international NGO registration, handle full documentation, and secure work permits with complete compliance
               </p>
 
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
@@ -181,6 +154,7 @@ export default function HomePage() {
                     width={450}
                     height={520}
                     priority
+                    sizes="(min-width: 1024px) 40vw, 100vw"
                     className="w-full h-[360px] sm:h-[420px] lg:h-[460px] object-cover object-top"
                   />
                   <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-950 via-slate-950/80 to-transparent p-4 text-white text-center">
@@ -295,11 +269,12 @@ export default function HomePage() {
                     alt="PerryVent Founder - Why Choose Us"
                     width={400}
                     height={460}
+                    sizes="(min-width: 1024px) 40vw, 100vw"
                     className="w-full h-[440px] object-cover object-top"
                   />
                   <div className="absolute bottom-0 inset-x-0 p-3 bg-slate-950/90 text-center">
                     <p className="text-xs font-semibold text-amber-300">
-                      "We treat your compliance with the gravity your business deserves."
+                      &quot;We treat your compliance with the gravity your business deserves.&quot;
                     </p>
                   </div>
                 </div>
@@ -408,6 +383,7 @@ export default function HomePage() {
                     alt="Perry Salama - Founder PerryVent Consultancy"
                     width={400}
                     height={460}
+                    sizes="(min-width: 1024px) 40vw, 100vw"
                     className="relative rounded-2xl w-full h-[360px] sm:h-[420px] object-cover object-top shadow-xl border border-slate-200"
                   />
                 </div>
@@ -423,11 +399,11 @@ export default function HomePage() {
                 </h2>
                 <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
                   <p>
-                    "When I founded <strong>PerryVent Consultancy</strong> on Dewinton Road, my vision was clear:
-                    to demystify the legal, tax, and regulatory landscape for every entrepreneur and NGO in Uganda."
+                    &quot;When I founded <strong>PerryVent Consultancy</strong> on Dewinton Road, my vision was clear:
+                    to demystify the legal, tax, and regulatory landscape for every entrepreneur and NGO in Uganda.&quot;
                   </p>
                   <p>
-                    "We ensure your business operates with complete legality, total peace of mind, and sovereign compliance."
+                    &quot;We ensure your business operates with complete legality, total peace of mind, and sovereign compliance.&quot;
                   </p>
                 </div>
                 <div className="pt-3 border-t border-slate-100 flex items-center justify-between">
@@ -450,44 +426,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 7. FAQ SECTION */}
-      <section className="py-14 sm:py-16 lg:py-20 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12 space-y-2">
-            <span className="text-xs font-bold uppercase tracking-widest text-amber-600">Answers</span>
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 font-heading">
-              Frequently Asked Questions
-            </h2>
-          </div>
-
-          <div className="space-y-3">
-            {faqs.map((faq, index) => {
-              const isOpen = openFaq === index;
-              return (
-                <div key={index} className="border border-slate-200 rounded-xl overflow-hidden">
-                  <button
-                    type="button"
-                    onClick={() => setOpenFaq(isOpen ? null : index)}
-                    className="w-full min-h-12 p-4 text-left flex items-center justify-between gap-4 bg-slate-50/60 hover:bg-slate-50 text-sm font-bold text-slate-900 font-heading"
-                  >
-                    <span>{faq.q}</span>
-                    <ChevronDown
-                      className={`w-4 h-4 text-slate-500 transition-transform ${
-                        isOpen ? "transform rotate-180 text-amber-600" : ""
-                      }`}
-                    />
-                  </button>
-                  {isOpen && (
-                    <div className="p-4 pt-0 bg-slate-50/60 text-sm text-slate-600 leading-relaxed border-t border-slate-100">
-                      {faq.a}
-                    </div>
-                  )}
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
+      <HomeFaq />
 
     </div>
   );

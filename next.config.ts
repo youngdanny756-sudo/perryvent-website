@@ -4,6 +4,14 @@ const nextConfig: NextConfig = {
   /* config options here */
   cacheComponents: true,
   partialPrefetching: true,
+  images: {
+    localPatterns: [
+      {
+        pathname: "/assets/**",
+        search: "",
+      },
+    ],
+  },
   turbopack: {
     rules: {
       "*.css": {
