@@ -62,7 +62,7 @@ export default function AboutPage() {
                     className="w-full h-[400px] sm:h-[460px] object-cover object-top"
                   />
                   <div className="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-slate-950 via-slate-950/80 to-transparent text-center">
-                    <h3 className="text-base font-bold text-white font-heading">Perry Salama</h3>
+                    <h3 className="text-base font-bold text-white font-heading">Emily Salama</h3>
                     <p className="text-xs text-amber-300">Founder & Managing Director</p>
                   </div>
                 </div>
@@ -85,8 +85,7 @@ export default function AboutPage() {
             </div>
             <h3 className="text-lg font-bold text-slate-900 font-heading">Our Mission</h3>
             <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-              To provide swift, confidential, and accurate legal documentation, statutory filing, and tax advisory
-              services that give businesses and non-profits the legal foundation to scale without fear.
+              To deliver practical, ethical, and high-standard advisory services that optimize client operations and successfully fulfill their strategic objectives.
             </p>
           </div>
 
@@ -96,8 +95,7 @@ export default function AboutPage() {
             </div>
             <h3 className="text-lg font-bold text-slate-900 font-heading">Our Vision</h3>
             <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-              To be the most trusted corporate advisory partner across East Africa, renowned for 100% compliance
-              integrity, zero-penalty track records, and transformative client support.
+              To build a premier, highly trusted consultancy firm celebrated for driving meaningful transformation across business and institutional sectors.
             </p>
           </div>
 

@@ -392,15 +392,15 @@ export default function HomePage() {
               <div className="lg:col-span-7 space-y-4">
                 <div className="inline-flex items-center gap-1.5 text-xs font-bold text-amber-600 uppercase tracking-widest">
                   <Award className="w-4 h-4 text-amber-600" />
-                  <span>Leadership & Expertise</span>
+                  <span>Founder & Managing Director</span>
                 </div>
                 <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 font-heading">
-                  A Personal Commitment to Your Growth
+                  Meet Emily Salama, the visionary behind PerryVent Consultancy
                 </h2>
                 <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
                   <p>
-                    &quot;When I founded <strong>PerryVent Consultancy</strong> on Dewinton Road, my vision was clear:
-                    to demystify the legal, tax, and regulatory landscape for every entrepreneur and NGO in Uganda.&quot;
+                    &quot;I am a strategic thinker, visionary entrepreneur, and business advisor dedicated to helping organizations unlock their full potential. I found <strong>PerryVent Consultancy</strong> with a singular, driving purpose: to provide the high-level expertise, reliable guidance, and innovative strategies that leaders need to overcome challenges, optimize operations, and seize new opportunities.
+                    My leadership philosophy rests on integrity, accountability, and excellence. I firmly believe that with the right partnership and the right strategy, every organization is capable of achieving remarkable, lasting progress&quot;
                   </p>
                   <p>
                     &quot;We ensure your business operates with complete legality, total peace of mind, and sovereign compliance.&quot;
@@ -408,7 +408,7 @@ export default function HomePage() {
                 </div>
                 <div className="pt-3 border-t border-slate-100 flex items-center justify-between">
                   <div>
-                    <h4 className="text-sm font-bold text-slate-900 font-heading">Perry Salama</h4>
+                    <h4 className="text-sm font-bold text-slate-900 font-heading">Emily Salama</h4>
                     <p className="text-xs text-slate-500">Founder & Managing Director</p>
                   </div>
                   <Link
