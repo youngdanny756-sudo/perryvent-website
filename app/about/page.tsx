@@ -62,8 +62,8 @@ export default function AboutPage() {
                     className="w-full h-[400px] sm:h-[460px] object-cover object-top"
                   />
                   <div className="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-slate-950 via-slate-950/80 to-transparent text-center">
-                    <h3 className="text-base font-bold text-white font-heading">Perry Emily Salama</h3>
-                    <p className="text-xs text-amber-300">Founder & Managing Director</p>
+                    <h3 className="text-base font-bold text-white font-heading">PerryVent Consultancy</h3>
+                    <p className="text-xs text-amber-300">"Empowering global missions with local certainty. We bridge the gap between regulatory framework and impactful change across Uganda"</p>
                   </div>
                 </div>
               </div>
