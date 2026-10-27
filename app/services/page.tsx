@@ -47,7 +47,7 @@ export default function ServicesPage() {
       subtitle: "National Bureau for NGOs & Ministry of Internal Affairs",
       category: "ngo",
       timeline: "3 – 6 Weeks",
-      badge: "All 5 NGO Statuses",
+      badge: "NGO Statuses",
       description:
         "End-to-end constitution drafting, bureau licensing, and statutory maintenance across all legal NGO classifications in Uganda.",
       subServices: [
@@ -57,7 +57,8 @@ export default function ServicesPage() {
         { name: "Continental NGO", desc: "Pan-African non-profits operating across multiple African states." },
         { name: "Regional NGO", desc: "East African regional civil society organizations." },
         { name: "Filing of Annual Returns", desc: "Mandatory annual report submissions to maintain active NGO permits." },
-        { name: "Work Permit Recommendation Letters", desc: "Obtaining prerequisite line ministry and NGO Bureau clearances." },
+        { name: "Work Permit & Visa Applications", desc: "Support with immigration applications for NGO staff and representatives." },
+        { name: "Recommendation Letters", desc: "Obtaining prerequisite clearances from line ministries and the NGO Bureau." },
         { name: "Filing for Registry Searches & Certifications", desc: "Certified search reports and authenticated true copies." },
       ],
       documents: [
@@ -179,7 +180,7 @@ export default function ServicesPage() {
 
   const categories = [
     { id: "all", label: "All Practice Areas" },
-    { id: "ngo", label: "NGOs (All 5 Statuses)" },
+    { id: "ngo", label: "NGO Statuses" },
     { id: "company", label: "Company & URSB" },
     { id: "immigration", label: "Work Permits & Passports" },
     { id: "compliance", label: "PDPO Data Protection" },
@@ -206,13 +207,13 @@ export default function ServicesPage() {
                 Specialized Legal & Compliance Services in Uganda
               </h1>
               <p className="text-sm sm:text-base text-slate-300 leading-relaxed max-w-xl">
-                From registering all 5 legal NGO classifications and URSB corporate entities to DCIC work permits,
+                From registering different NGO classifications and URSB corporate entities to DCIC work permits,
                 passport dossiers, and PDPO certifications—we deliver sovereign compliance on Dewinton Road.
               </p>
               <div className="pt-2 flex flex-wrap gap-4 text-xs text-slate-300">
                 <span className="flex items-center gap-1.5">
                   <CheckCircle2 className="w-4 h-4 text-amber-400" />
-                  <span>All 5 NGO Statuses (Indigenous to International)</span>
+                  <span>NGO Statuses (Indigenous to International)</span>
                 </span>
                 <span className="flex items-center gap-1.5">
                   <CheckCircle2 className="w-4 h-4 text-amber-400" />
@@ -220,12 +221,13 @@ export default function ServicesPage() {
                 </span>
                 <span className="flex items-center gap-1.5">
                   <CheckCircle2 className="w-4 h-4 text-amber-400" />
-                  <span>Work Permits & Passport Replacements</span>
+                  <span>Work Permits & Visa Applications</span>
                 </span>
                 <span className="flex items-center gap-1.5">
                   <CheckCircle2 className="w-4 h-4 text-amber-400" />
                   <span>PDPO New & Renewals</span>
                 </span>
+                
               </div>
             </div>
 

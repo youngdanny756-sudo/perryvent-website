@@ -162,7 +162,11 @@ export default function AboutPage() {
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle2 className="w-3.5 h-3.5 text-amber-600 shrink-0" />
-                  <span>Work Permit Recommendation Letters</span>
+                  <span>Work Permit & Visa Applications</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <CheckCircle2 className="w-3.5 h-3.5 text-amber-600 shrink-0" />
+                  <span>Recommendation Letters</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle2 className="w-3.5 h-3.5 text-amber-600 shrink-0" />

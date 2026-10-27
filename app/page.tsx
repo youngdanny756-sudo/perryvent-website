@@ -414,7 +414,7 @@ export default function HomePage() {
                 </div>
                 <div className="pt-3 border-t border-slate-100 flex items-center justify-between">
                   <div>
-                    <h4 className="text-sm font-bold text-slate-900 font-heading">Emily Salama</h4>
+                    <h4 className="text-sm font-bold text-slate-900 font-heading">Perry Emily Salama</h4>
                     <p className="text-xs text-slate-500">Founder & Managing Director</p>
                   </div>
                   <Link
