@@ -293,7 +293,8 @@ export default function ServicesPage() {
             return (
               <div
                 key={cluster.id}
-                className="bg-white rounded-2xl border border-slate-200 p-7 shadow-xs hover:border-amber-400/80 transition-all flex flex-col justify-between"
+                id={cluster.id}
+                className="scroll-mt-40 bg-white rounded-2xl border border-slate-200 p-7 shadow-xs hover:border-amber-400/80 transition-all flex flex-col justify-between"
               >
                 <div>
                   <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 sm:gap-4 mb-3">

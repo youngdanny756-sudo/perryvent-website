@@ -31,7 +31,7 @@ export default function AboutPage() {
                 Empowering Ugandan Enterprises & NGOs Through Impeccable Compliance.
               </h1>
               <p className="text-sm sm:text-base text-slate-300 leading-relaxed max-w-2xl">
-                PerryVent Consultancy was founded on Dewinton Road, Kampala, with a singular purpose:
+                PerryVent Consultancy is situated on Dewinton Road, Kampala, with a singular purpose:
                 to eliminate bureaucratic friction, registration delays, and tax penalties for hardworking
                 entrepreneurs, international non-profits, and expatriate investors in Uganda.
               </p>
@@ -62,7 +62,7 @@ export default function AboutPage() {
                     className="w-full h-[400px] sm:h-[460px] object-cover object-top"
                   />
                   <div className="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-slate-950 via-slate-950/80 to-transparent text-center">
-                    <h3 className="text-base font-bold text-white font-heading">Emily Salama</h3>
+                    <h3 className="text-base font-bold text-white font-heading">Perry Emily Salama</h3>
                     <p className="text-xs text-amber-300">Founder & Managing Director</p>
                   </div>
                 </div>

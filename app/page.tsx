@@ -20,40 +20,46 @@ import {
 export default function HomePage() {
   const featuredServices = [
     {
-      title: "Business Name Reservation",
-      timeline: "24 – 48 Hours",
-      desc: "Comprehensive trademark and availability searches on the URSB registry with official 30-day reservation certificate.",
-      icon: FileCheck2,
+      title: "NGO & Non-Profit Registration",
+      sectionId: "ngo-cluster",
+      timeline: "Specialized",
+      desc: "Licensing with the National Bureau for NGOs, drafting constitutions, and district local government MoUs.",
+      icon: HeartHandshake,
     },
     {
       title: "Company Registration (LLC)",
+      sectionId: "company-cluster",
       timeline: "3 – 5 Days",
       desc: "Full incorporation of Private Limited Companies including MEMARTS, Form 20, and Certificate of Incorporation.",
       icon: Building2,
     },
     {
       title: "TIN Registration (Individual & Company)",
+      sectionId: "tax-cluster",
       timeline: "1 – 2 Days",
       desc: "Complete digital filing with Uganda Revenue Authority (URA) and instant portal activation for trading and banking.",
       icon: Receipt,
     },
     {
       title: "Tax Filing & URA Compliance",
+      sectionId: "tax-cluster",
       timeline: "Monthly Retainers",
       desc: "Proactive filing of Income Tax, PAYE, VAT, and Withholding Tax returns to prevent devastating URA penal interest.",
       icon: Scale,
     },
     {
       title: "Annual Returns Filing",
+      sectionId: "company-cluster",
       timeline: "2 – 3 Days",
       desc: "Maintaining active corporate legal status with URSB, ensuring eligibility for tenders and clean bank compliance.",
       icon: CalendarCheck,
     },
     {
-      title: "NGO & Non-Profit Registration",
-      timeline: "Specialized",
-      desc: "Licensing with the National Bureau for NGOs, drafting constitutions, and district local government MoUs.",
-      icon: HeartHandshake,
+      title: "Business Name Reservation",
+      sectionId: "company-cluster",
+      timeline: "24 – 48 Hours",
+      desc: "Comprehensive trademark and availability searches on the URSB registry with official 30-day reservation certificate.",
+      icon: FileCheck2,
     },
   ];
 
@@ -231,7 +237,7 @@ export default function HomePage() {
                     {service.timeline}
                   </span>
                   <Link
-                    href="/contact"
+                    href={`/services#${service.sectionId}`}
                     className="inline-flex min-h-11 items-center gap-1 text-sm font-bold text-slate-900 hover:text-amber-600"
                   >
                     <span>Inquire</span>
@@ -248,7 +254,7 @@ export default function HomePage() {
             href="/services"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[#0B1A30] text-white hover:bg-slate-800 text-xs font-bold uppercase tracking-wider"
           >
-            <span>View All 12 Consultancy Services</span>
+            <span>Explore All Services</span>
             <ArrowRight className="w-4 h-4 text-amber-400" />
           </Link>
         </div>
@@ -395,7 +401,7 @@ export default function HomePage() {
                   <span>Founder & Managing Director</span>
                 </div>
                 <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 font-heading">
-                  Meet Emily Salama, the visionary behind PerryVent Consultancy
+                  Meet Perry Emily Salama, the visionary behind PerryVent Consultancy
                 </h2>
                 <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
                   <p>
