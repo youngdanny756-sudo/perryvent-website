@@ -401,12 +401,14 @@ export default function ServicesPage() {
               retainers at our Dewinton Road offices in central Kampala.
             </p>
           </div>
-          <Link
-            href="/contact"
+          <a
+            href="https://www.google.com/maps/dir/?api=1&destination=0.314917%2C32.590056"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-6 py-3 bg-amber-400 hover:bg-amber-300 text-slate-950 text-xs font-bold uppercase tracking-wider rounded-xl transition-all shrink-0"
           >
             Visit Dewinton Office
-          </Link>
+          </a>
         </div>
       </section>
 
