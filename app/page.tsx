@@ -27,6 +27,13 @@ export default function HomePage() {
       icon: HeartHandshake,
     },
     {
+      title: "INTERPOL Applications & Cross-Border Documentation",
+      sectionId: "interpol-cluster",
+      timeline: "Varies",
+      desc: "Navigate complex international regulatory frameworks, data files, and cross-border verifications with absolute precision.",
+      icon: ShieldCheck,
+    },
+    {
       title: "Company Registration (LLC)",
       sectionId: "company-cluster",
       timeline: "3 – 5 Days",

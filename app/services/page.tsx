@@ -28,7 +28,7 @@ interface PracticeCluster {
   id: string;
   title: string;
   subtitle: string;
-  category: "ngo" | "company" | "immigration" | "compliance" | "tax";
+  category: "ngo" | "company" | "immigration" | "compliance" | "tax" | "international";
   timeline: string;
   badge: string;
   description: string;
@@ -66,6 +66,50 @@ export default function ServicesPage() {
         "Police clearance certificates / Interpol letters for founders",
         "Recommendation letters from line ministries and district local governments",
         "Organizational structure, 3-year budget, and work plan",
+      ],
+    },
+    {
+      id: "interpol-cluster",
+      title: "INTERPOL Applications & Cross-Border Documentation",
+      subtitle: "INTERPOL & International Legal Cooperation",
+      category: "international",
+      timeline: "Varies",
+      badge: "INTERPOL Services",
+      description:
+        "Assistance with international legal documentation and cooperation with INTERPOL for cross-border investigations.",
+      subServices: [
+        {
+          name: "INTERPOL Red Notices",
+          desc: "Assistance preparing documents for Red Notice matters through appropriate official channels.",
+        },
+        {
+          name: "Cross-Border Legal Documentation",
+          desc: "Support with legal documents required for international investigations and official requests.",
+        },
+        {
+          name: "Global Document Verification",
+          desc: "Get foreign legal papers, certificates, and cross-border administrative files authenticated properly.",
+        },
+        {
+          name: "NGO & Non-Profit Setup Abroad",
+          desc: "Guidance on establishing non-profit entities in foreign jurisdictions and meeting local requirements.",
+        },
+        {
+          name: "International Risk Review",
+          desc: "Protect your status with a preventive check-up if you handle business across multiple countries.",
+        },
+        {
+          name: "Business Licenses & Permits",
+          desc: "Obtain and renew the mandatory government operating permits required to run your entity legally.",
+        },
+      ],
+      documents: [
+        "Official identification records.",
+        "Detailed narrative statement outlining the background of your case.",
+        "Current corporate or personal profile documents.",
+        "Certified copies of local court judgments, discharge letters, or dismissal certificates.",
+        "Evidence demonstrating breach of international institutional rules.",
+        "Chronological file histories relating to past international inquiries.",
       ],
     },
     {
@@ -185,6 +229,7 @@ export default function ServicesPage() {
     { id: "immigration", label: "Work Permits & Passports" },
     { id: "compliance", label: "PDPO Data Protection" },
     { id: "tax", label: "URA Tax Filing" },
+    { id: "international", label: "International Documentation" },
   ];
 
   const filteredClusters = practiceClusters.filter((cluster) =>
@@ -361,12 +406,12 @@ export default function ServicesPage() {
                 </div>
 
                 {/* Card Action */}
-                <div className="pt-6 mt-6 border-t border-slate-100 flex items-center justify-between">
-                  <div className="text-xs">
+                <div className="pt-6 mt-6 border-t border-slate-100 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                  <div className="text-xs whitespace-nowrap">
                     <span className="text-slate-400">Typical Timeline: </span>
                     <strong className="text-slate-800">{cluster.timeline}</strong>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex flex-wrap items-center gap-2">
                     <a
                       href={whatsappUrl}
                       target="_blank"
