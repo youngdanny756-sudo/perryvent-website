@@ -23,14 +23,14 @@ export default function Navbar() {
           <div className="flex items-center gap-2 sm:gap-4">
             <span className="flex items-center gap-1.5 text-amber-400 font-medium">
               <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
-              Dewinton Road, Kampala, Uganda
+             
             </span>
             <span className="hidden sm:inline text-slate-600">|</span>
             <a
               href="tel:+256787171657"
               className="hidden sm:inline hover:text-white transition-colors"
             >
-              +256 787 171 657
+              
             </a>
           </div>
           <div className="flex items-center gap-4 ml-auto">
