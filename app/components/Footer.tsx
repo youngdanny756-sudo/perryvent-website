@@ -64,7 +64,7 @@ export default function Footer() {
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
                 <span className="text-slate-300">
-                  Dewinton Road, opposite the Uganda National Cultural Centre, Kampala, Uganda.
+                  Plot 9A, Dewinton Road, opposite the Uganda National Cultural Centre, Kampala, Uganda.
                   <br />
                   P.O. Box 204862, Kampala, Uganda.
                 </span>
@@ -102,7 +102,7 @@ export default function Footer() {
             <span>·</span>
             <span>URA e-Tax Compliant</span>
             <span>·</span>
-            <span>Dewinton Road, Kampala</span>
+            <span>Plot 9A, Dewinton Road, Kampala</span>
           </div>
         </div>
       </div>
