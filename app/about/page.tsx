@@ -31,7 +31,7 @@ export default function AboutPage() {
                 Empowering Ugandan Enterprises & NGOs Through Impeccable Compliance.
               </h1>
               <p className="text-sm sm:text-base text-slate-300 leading-relaxed max-w-2xl">
-                PerryVent Consultancy is situated on Dewinton Road, Kampala, with a singular purpose:
+                PerryVent Consultancy is situated on Dewinton Road in Kampala, with a singular purpose:
                 to eliminate bureaucratic friction, registration delays, and tax penalties for hardworking
                 entrepreneurs, international non-profits, and expatriate investors in Uganda.
               </p>

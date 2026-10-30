@@ -443,7 +443,7 @@ export default function ServicesPage() {
             </h3>
             <p className="text-xs sm:text-sm text-slate-300 max-w-xl">
               We also handle URSB/NGO Bureau certified true copies, official registry searches, and ongoing compliance
-              retainers at our Dewinton Road offices in central Kampala.
+              retainers on Dewinton Road in central Kampala.
             </p>
           </div>
           <a

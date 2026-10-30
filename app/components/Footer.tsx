@@ -26,7 +26,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-sm text-slate-300 leading-relaxed">
-              Simplifying legal, tax, and corporate registration in Uganda through expert URSB filing,
+              Simplifying legal, NGO , tax, and corporate registration in Uganda through expert URSB filing,
               URA compliance, and immigration permits.
             </p>
             <div className="inline-flex items-center gap-2 text-xs font-semibold text-amber-400/90 uppercase tracking-wider">
@@ -63,7 +63,11 @@ export default function Footer() {
             <div className="space-y-2.5 text-sm">
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
-                <span className="text-slate-300">Dewinton Road, Central Division, Kampala</span>
+                <span className="text-slate-300">
+                  Dewinton Road, opposite the Uganda National Cultural Centre, Kampala, Uganda.
+                  <br />
+                  P.O. Box 204862, Kampala, Uganda.
+                </span>
               </div>
               <div className="flex items-start gap-2">
                 <Phone className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
@@ -81,8 +85,8 @@ export default function Footer() {
               <div className="flex items-start gap-2">
                 <Clock className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
                 <div className="flex flex-col">
-                  <span className="text-slate-400 whitespace-nowrap">Mon - Fri: 8:00 AM - 4:30 PM</span>
-                  <span className="text-slate-400 whitespace-nowrap">Sat: 8:00 AM - 12:00 PM</span>
+                  <span className="text-slate-400 whitespace-nowrap">Mon - Fri: 8:00 AM - 5.00 PM</span>
+                  <span className="text-slate-400 whitespace-nowrap">Sat: 9:00 AM - 2:00 PM</span>
                 </div>
               </div>
             </div>
@@ -98,7 +102,7 @@ export default function Footer() {
             <span>·</span>
             <span>URA e-Tax Compliant</span>
             <span>·</span>
-            <span>Dewinton Rd, Kampala</span>
+            <span>Dewinton Road, Kampala</span>
           </div>
         </div>
       </div>
