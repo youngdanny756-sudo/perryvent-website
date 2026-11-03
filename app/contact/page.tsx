@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const officeAddress =
-  "Dewinton Road, opposite the Uganda National Cultural Centre, Kampala, Uganda";
+  "Plot 9A Dewinton Road, opposite the Uganda National Cultural Centre, Kampala, Uganda";
 const directionsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
   officeAddress,
 )}`;

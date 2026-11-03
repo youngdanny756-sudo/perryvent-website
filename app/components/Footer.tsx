@@ -26,7 +26,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-sm text-slate-300 leading-relaxed">
-              Simplifying legal, NGO , tax, and corporate registration in Uganda through expert URSB filing,
+              Simplifying legal NGO Registration, data protection compliance, tax and corporate registration in Uganda through expert URSB filing,
               URA compliance, and immigration permits.
             </p>
             <div className="inline-flex items-center gap-2 text-xs font-semibold text-amber-400/90 uppercase tracking-wider">
@@ -40,7 +40,7 @@ export default function Footer() {
             <h4 className="text-xs font-bold text-white uppercase tracking-wider">Navigation</h4>
             <ul className="space-y-2.5 text-sm">
               <li><Link href="/" className="hover:text-amber-400 transition-colors">Home</Link></li>
-              <li><Link href="/services" className="hover:text-amber-400 transition-colors">All 12 Services</Link></li>
+              <li><Link href="/services" className="hover:text-amber-400 transition-colors">All Services</Link></li>
               <li><Link href="/about" className="hover:text-amber-400 transition-colors">Meet the Founder</Link></li>
               <li><Link href="/contact" className="hover:text-amber-400 transition-colors">Dewinton Road Office</Link></li>
             </ul>
