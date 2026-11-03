@@ -79,7 +79,7 @@ export default function HomePage() {
     {
       step: "02",
       title: "Document Preparation",
-      desc: "We draft your MEMARTS, resolutions, or URA tax schedules according to strict Ugandan commercial legal standards.",
+      desc: "We provide full NGO documentation and registration compliance, alongside drafting your MEMARTS, resolutions, or URA tax schedules according to strict Ugandan legal standards",
     },
     {
       step: "03",
