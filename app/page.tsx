@@ -104,8 +104,8 @@ export default function HomePage() {
             {/* Left Column (Headline & CTAs) */}
             <div className="lg:col-span-7 space-y-6">
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-md bg-amber-400/10 border border-amber-400/30 text-amber-400 text-xs font-semibold uppercase tracking-wider">
-                <MapPin className="w-3.5 h-3.5" />
-                <span>Dewinton Road, Kampala · Legal & Tax Consultancy</span>
+                
+                
               </div>
 
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white font-heading leading-[1.15]">
